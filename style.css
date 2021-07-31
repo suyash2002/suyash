@@ -45,9 +45,15 @@ background-size: cover;
 
 /* NAVABAR */
 nav{
+    
     background-color:#343434;
     color:white;
 }
+
+
+
+/* ABOUT */
+
 
 #container-about{
     display:flex;
@@ -96,7 +102,7 @@ nav{
 .msg-1{
     
    
-    font-size: 4rem;
+    font-size: 150%;
 
   
 
@@ -106,7 +112,7 @@ nav{
     
     padding:2px;
     
-    font-size: 1.5;
+    font-size: 100%;
     margin:3.5px;
     
 }
@@ -120,15 +126,12 @@ nav{
     
 }
 .skills{
-  
-width:90vh;
-
+    margin: 80px;
 }
 .progress-bar{
     background: white;;
-    width:60%;
     background-color:   #6083fb;
-    transition: width .0s ease-in-out;
+   
 }
 
 /* PORTFOLIO */
@@ -159,7 +162,7 @@ height:300px;
     backface-visibility: hidden;
   }
   .flip-card-front {
-    background-color: #343434;
+    background-color:transparent;
     color: white;
   }
 .flip-card-back{
@@ -183,7 +186,14 @@ height:300px;
 footer{
     border: 1px solid black;
     margin: 20px;
+    width:50%;
+ 
     background-color: #4f4f4f;
+}
+#container-contact{
+    margin:50px;
+
+   
 }
 .icon{
     display:flex;
@@ -191,7 +201,7 @@ footer{
 }
 .fa {
   
-    padding: 20px;
+
     
     width: 50px;
 
@@ -224,3 +234,9 @@ footer{
  
   
 
+@media (min-width:742px){
+    #res{
+        width:50%;
+    }
+    
+}
